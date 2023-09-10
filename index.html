@@ -87,10 +87,10 @@
       #first{
         display: flex;
         flex-direction: column;
-        display:none;
+        /* display:none; */
       }
       #second{
-          display: flex;
+          display: none;
       flex-direction: column;
           /* justify-content: center; */
           align-items: center;
@@ -193,13 +193,13 @@ circleArray.forEach(circle => {
       });
 });
 
-// submit.addEventListener("click",()=>{
-//             second.style.display = "flex";
+submit.addEventListener("click",()=>{
+            second.style.display = "flex";
 
-//             first.style.display = "none";
-//             output.innerHTML = `You selected ${selectedValue} out of 5`;
+            first.style.display = "none";
+            output.innerHTML = `You selected ${selectedValue} out of 5`;
 
-//           })
+          })
 
     
   </script>
